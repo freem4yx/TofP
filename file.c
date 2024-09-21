@@ -16,5 +16,9 @@ int main()
     printf("pi = %f\n", M_PI);
     printf("e = %f\n", exp(1));
     
+    printf("Enter R:\n");
+    float radius;
+    scanf("%f", &radius);
+    printf("R = %f, S = %.4f", radius, radius * radius * M_PI);
     return 0;
 }
