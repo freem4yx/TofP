@@ -2,7 +2,8 @@
 
 int main()
 {
-    printf("Hello, World!\n");
-    printf("We are ready to start!\n");
+    printf("Enter two numbers, please:\n");
+    int a, b;
+    scanf("%d %d", &a, &b);
     return 0;
 }
