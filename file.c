@@ -3,6 +3,7 @@
 
 int main()
 {
+<<<<<<< HEAD
     float x;
     float y;
     printf("Enter the number and power:\n");
@@ -15,5 +16,12 @@ int main()
     printf("pi = %f\n", M_PI);
     printf("e = %f\n", exp(1));
     
+=======
+    int x;
+    int y;
+    printf("Enter the number and power:\n");
+    scanf("%d %d", &x, &y);
+    printf("%d ^ %d = %d\n", x, y, (int) pow(x,y));
+>>>>>>> 3d92ac8 (Entering of numbers)
     return 0;
 }
