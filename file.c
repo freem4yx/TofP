@@ -3,13 +3,14 @@
 
 int main()
 {
-    int x = 2;
-    int y = 0;
-    printf("%d ^ %d = %d\n", x, y, (int) pow(x,y));
-
+    float x;
+    float y;
+    printf("Enter the number and power:\n");
+    scanf("%f %f", &x, &y);
+    printf("%.1f ^ %.1f = %.1f\n", x, y, pow(x,y));
     printf("Enter the number and base:\n");
-    scanf("%d %d", &x, &y);
-    printf("log[%d] (%d) = %.1f\n", x, y, log(x) / log(y));
+    scanf("%.1f %.1f", &x, &y);
+    printf("log[%.1f] (%.1f) = %.1f\n", x, y, log(x) / log(y));
 
     printf("pi = %f\n", M_PI);
     printf("e = %f\n", exp(1));
