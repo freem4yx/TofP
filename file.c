@@ -5,6 +5,8 @@ int main()
 {
     int x = 2;
     int y = 0;
-    printf("%d ^ %d = %d", x, y, (int) pow(x,y));
+    printf("%d ^ %d = %d\n", x, y, (int) pow(x,y));
 
+
+    printf("%f\n", M_PI);
 }
