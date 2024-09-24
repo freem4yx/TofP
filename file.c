@@ -8,5 +8,6 @@ int main()
     printf("%d ^ %d = %d\n", x, y, (int) pow(x,y));
 
 
-    printf("%f\n", M_PI);
+    printf("pi = %f\n", M_PI);
+    printf("e = %f\n", exp(1));
 }
